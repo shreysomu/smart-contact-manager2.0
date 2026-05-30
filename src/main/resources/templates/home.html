@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      margin: auto;
+      width: 50% ;
+      padding: 30px;
+      background: #e2e2e2;;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 data-th-text="${name}">Welcome to home page</h1>
+    <p>YouTube Channel : <span data-th-text="${youtubeChannel}"></span></p>
+    <p> GitHub Repository Link : <span data-th-text="${githubRepository}"> </span></p>
+    
+    <a th:href="${githubRepository}">Click here to open</a>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, tempore. Tenetur soluta id quaerat quisquam, expedita ab, blanditiis optio repudiandae, asperiores accusamus numquam fugiat quod mollitia sapiente modi ipsa ad.
+    </p>
+  </div>
+</body>
+</html>
