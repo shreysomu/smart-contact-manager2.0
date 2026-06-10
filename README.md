@@ -26,17 +26,112 @@ Users will be able to:
 
 ## Current Progress
 
-## Progress Tracker
+---
+
+## 📈 Progress Tracker
+
+### Completed
 
 * [x] Episode 1 - Project Introduction
-* [x] Episode 2 - Spring Boot Setup
+* [x] Episode 2 - Spring Boot Project Setup
 * [x] Episode 3 - MVC Architecture & Project Structure
-* [ ] Episode 4 - Database Configuration
-* [ ] Episode 5 - User Entity
-* [ ] Episode 6 - Registration Module
-* [ ] Spring Security
-* [ ] Contact CRUD Operations
 
+### Upcoming
+
+* [ ] Episode 4 - Database Configuration
+* [ ] Episode 5 - User Entity Creation
+* [ ] Episode 6 - Registration Module
+* [ ] Episode 7 - User Validation
+* [ ] Spring Security Setup
+* [ ] Contact CRUD Operations
+* [ ] Pagination & Search
+* [ ] Image Upload
+* [ ] Dashboard Implementation
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+
+* Java
+* Spring Boot
+* Spring MVC
+* Spring Data JPA
+* Hibernate
+
+### Frontend
+
+* Thymeleaf
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+
+### Database
+
+* MySQL
+
+### Build Tool
+
+* Maven
+
+### Version Control
+
+* Git
+* GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+src/main/java
+└── com.scm
+    ├── controllers
+    ├── services
+    ├── repositories
+    ├── entities
+    ├── config
+    ├── helpers
+    └── Application.java
+
+src/main/resources
+├── templates
+├── static
+│   ├── css
+│   ├── js
+│   └── images
+└── application.properties
+```
+
+---
+
+## 🏗️ Architecture
+
+```text
+User
+ ↓
+Controller
+ ↓
+Service
+ ↓
+Repository
+ ↓
+Database
+```
+
+### Layer Responsibilities
+
+| Layer      | Responsibility                    |
+| ---------- | --------------------------------- |
+| Controller | Handles HTTP Requests & Responses |
+| Service    | Business Logic                    |
+| Repository | Database Operations               |
+| Entity     | Database Mapping                  |
+| View       | User Interface                    |
+
+---
 
 ### Completed Episodes
 
@@ -60,90 +155,6 @@ Users will be able to:
 * MVC Architecture Overview
 
 ---
-
-## Tech Stack
-
-### Backend
-
-* Java
-* Spring Boot
-* Spring MVC
-* Spring Data JPA
-* Hibernate
-
-### Frontend
-
-* Thymeleaf
-* HTML
-* CSS
-* Bootstrap
-* JavaScript
-
-### Database
-
-* MySQL
-
-### Build Tool
-
-* Maven
-
-### Version Control
-
-* Git
-* GitHub
-
----
-
-## Project Structure
-
-src/main/java
-
-com.scm
-
-├── controllers
-
-├── services
-
-├── repositories
-
-├── entities
-
-├── config
-
-├── helpers
-
-└── Application.java
-
-src/main/resources
-
-├── templates
-
-├── static
-
-│ ├── css
-
-│ ├── js
-
-│ └── images
-
-└── application.properties
-
----
-
-## MVC Architecture
-
-User
-↓
-Controller
-↓
-Service
-↓
-Repository
-↓
-Database
-
----
-
 ## Dependencies Used
 
 * Spring Web
@@ -285,19 +296,24 @@ git push
 
 ---
 
-## Repository Status
+## 🚧 Current Status
 
-Project Status: In Progress
+### Completed
 
-Completed:
+* Project Initialization
+* Maven Configuration
+* MVC Setup
+* Template Configuration
+* Home Page Setup
 
-* Episodes 1–3
-
-Current Focus:
+### Currently Learning
 
 * Database Configuration
-* User Entity Creation
-* Hibernate & JPA Fundamentals
+* Hibernate
+* JPA
+* Entity Mapping
+
+---
 
 ---
 
@@ -309,3 +325,16 @@ Java Backend Developer
 
 Learning Journey:
 Java → Spring → Spring Boot → Hibernate → Microservices → System Design
+
+## ⭐ Repository Goal
+
+Build a production-ready Contact Management System while mastering:
+
+* Java Backend Development
+* Spring Ecosystem
+* Database Design
+* Security
+* REST APIs
+* Industry Best Practices
+
+
