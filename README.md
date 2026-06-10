@@ -26,6 +26,18 @@ Users will be able to:
 
 ## Current Progress
 
+## Progress Tracker
+
+* [x] Episode 1 - Project Introduction
+* [x] Episode 2 - Spring Boot Setup
+* [x] Episode 3 - MVC Architecture & Project Structure
+* [ ] Episode 4 - Database Configuration
+* [ ] Episode 5 - User Entity
+* [ ] Episode 6 - Registration Module
+* [ ] Spring Security
+* [ ] Contact CRUD Operations
+
+
 ### Completed Episodes
 
 #### Episode 1
