@@ -363,6 +363,44 @@ git push
 
 ---
 
+## ▶️ How to Run the Project
+
+### Prerequisites
+
+* Java 21+ (or your project's version)
+* Maven
+* MySQL
+* Node.js & npm (for TailwindCSS)
+
+### Steps
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/shreysomu/smart-contact-manager2.0.git
+```
+
+2. Navigate to the project
+
+```bash
+cd smart-contact-manager2.0
+```
+
+3. Configure database properties in `application.properties`
+
+4. Build and run
+
+```bash
+mvn spring-boot:run
+```
+
+5. Open browser
+
+```text
+http://localhost:8080
+```
+
+
 ---
 
 ## Author
