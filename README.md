@@ -1,4 +1,4 @@
-# Smart Contact Manager 2.0
+# [Smart Contact Manager 2.0](https://github.com/shreysomu/smart-contact-manager2.0)
 
 A full-stack Contact Management System built using Java, Spring Boot, Thymeleaf, MySQL, Spring Security, Hibernate, and Maven.
 
@@ -32,21 +32,16 @@ Users will be able to:
 
 ### Completed
 
-* [x] Episode 1 - Project Introduction
-* [x] Episode 2 - Spring Boot Project Setup
-* [x] Episode 3 - MVC Architecture & Project Structure
+- [x] Episode 1 - Project Introduction
+- [x] Episode 2 - Spring Boot Project Setup
+- [x] Episode 3 - Database Setup
+- [x] Episode 4 - TailwindCSS Setup
 
 ### Upcoming
-
-* [ ] Episode 4 - Database Configuration
-* [ ] Episode 5 - User Entity Creation
-* [ ] Episode 6 - Registration Module
-* [ ] Episode 7 - User Validation
-* [ ] Spring Security Setup
-* [ ] Contact CRUD Operations
-* [ ] Pagination & Search
-* [ ] Image Upload
-* [ ] Dashboard Implementation
+- [ ] Episode 5 - Layout Creation
+- [ ] Episode 6 - Home Page Design
+- [ ] Episode 7 - User Entity
+- [ ] Episode 8 - User Registration
 
 ---
 
@@ -147,12 +142,20 @@ Database
 * Maven Project Setup
 * Dependency Management
 
-#### Episode 3
+#### Episode 3 
 
-* Project Structure Setup
-* Resources Folder Configuration
-* Templates and Static Resources
-* MVC Architecture Overview
+* Database Configuration
+* application.properties Setup
+* MySQL Connectivity
+* Spring Boot Database Integration
+
+
+#### Episode 4
+
+* TailwindCSS Installation
+* Frontend Build Setup
+* Styling Configuration
+* UI Development Environment Setup
 
 ---
 ## Dependencies Used
@@ -270,6 +273,38 @@ Contains business logic.
 
 Handles database operations.
 
+#### What is JPA?
+
+Java Persistence API is a specification for mapping Java objects to database tables.
+
+#### What is Hibernate?
+
+Hibernate is the most popular implementation of JPA.
+
+#### Difference Between JPA and Hibernate?
+JPA                 	Hibernate
+Specification	      Implementation
+Defines standards  	Provides implementation
+
+#### What does ddl-auto=update do?
+
+Automatically updates database tables according to entity changes.
+
+#### What does show-sql=true do?
+
+Displays generated SQL queries in the console.
+#### Episode 3     
+What is application.properties?    
+What is a datasource?    
+Why do we use JDBC URL?   
+Difference between MySQL Driver and JPA?    
+
+#### Episode 4
+What is TailwindCSS?     
+Why use Tailwind instead of writing raw CSS?     
+What is package.json?     
+Why do we need Node.js for Tailwind?    
+
 ---
 
 ## Future Features
@@ -306,12 +341,23 @@ git push
 * Template Configuration
 * Home Page Setup
 
-### Currently Learning
+## Current Focus:
 
-* Database Configuration
-* Hibernate
-* JPA
-* Entity Mapping
+* TailwindCSS Integration
+* Layout Development
+* Thymeleaf Templates
+* User Entity Design
+* JPA & Hibernate
+
+## Upcoming Topics
+
+- Thymeleaf Fragments
+- Tailwind Components
+- User Entity Mapping
+- Spring Data JPA
+- User Registration
+- Spring Security
+- Contact CRUD Operations
 
 ---
 
