@@ -327,9 +327,11 @@ Why do we need Node.js for Tailwind?
 
 ## Git Workflow
 
+```bash
 git add .
 git commit -m "meaningful commit message"
 git push
+```
 
 ---
 
@@ -409,8 +411,7 @@ Screenshots will be added as the UI is developed.
 ## Author
 
 Shrey
-
-Java Backend Developer 
+Java Backend Developer
 
 Learning Journey:
 Java → Spring → Spring Boot → Hibernate → Microservices → System Design
