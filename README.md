@@ -282,9 +282,11 @@ Java Persistence API is a specification for mapping Java objects to database tab
 Hibernate is the most popular implementation of JPA.
 
 #### Difference Between JPA and Hibernate?
-JPA                 	Hibernate
-Specification	      Implementation
-Defines standards  	Provides implementation
+| JPA | Hibernate |
+|------|-----------|
+| Specification | Implementation |
+| Defines Standards | Provides Implementation |
+| Vendor Independent | Hibernate Specific |
 
 #### What does ddl-auto=update do?
 
