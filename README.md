@@ -400,6 +400,9 @@ mvn spring-boot:run
 http://localhost:8080
 ```
 
+## 📸 Screenshots
+
+Screenshots will be added as the UI is developed.
 
 ---
 
