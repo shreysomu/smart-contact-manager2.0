@@ -1,4 +1,7 @@
 # [Smart Contact Manager 2.0](https://github.com/shreysomu/smart-contact-manager2.0)
+![Java](https://img.shields.io/badge/Java-Backend-orange)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-Framework-green)
+![Status](https://img.shields.io/badge/Status-In_Progress-blue)
 
 A full-stack Contact Management System built using Java, Spring Boot, Thymeleaf, MySQL, Spring Security, Hibernate, and Maven.
 
@@ -24,9 +27,6 @@ Users will be able to:
 
 ---
 
-## Current Progress
-
----
 
 ## 📈 Progress Tracker
 
